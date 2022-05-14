@@ -15,7 +15,6 @@ sleep 2
 stm8flash -c stlinkv2 -p stm8s103f3 -s eeprom -r UID.bin
 
 uid=$(od -N12 -An -t x1 < UID.bin)
-#while read c; do uid=${c}; done < UIDb
 
 uid0=${uid:1:1}
 uid1=${uid:2:1}
