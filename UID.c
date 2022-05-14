@@ -1,6 +1,6 @@
 ﻿// A. Inácio Morais - 05/2022
 // anderson.morais@protonmail.com - Brazil 
-// Unique ID to EEPROM 
+// Unique ID to device EEPROM 
 // 311 bytes | 8 kbytes
 
 /*****************************************************************************************************/
