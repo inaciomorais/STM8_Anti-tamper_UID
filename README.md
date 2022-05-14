@@ -11,5 +11,7 @@ ats.sh - Anti-tamper Shell-Script (Linux)
 
 
 Terminal:
+
 chmod +x ats.sh
+
 ./ats.sh
