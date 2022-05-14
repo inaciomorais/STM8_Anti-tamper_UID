@@ -4,7 +4,7 @@ If we try to download the generated firmware directly to a second STM8S103 MCU i
 
 UID - Unique ID - 96-bit unique key for each device
 
-UID.c - Unique ID to EEPROM
+UID.c - Unique ID to device EEPROM
 
 ats.sh - Anti-tamper Shell-Script (Linux)
 
