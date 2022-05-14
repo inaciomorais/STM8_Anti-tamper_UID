@@ -7,7 +7,7 @@ UID.c - Unique ID to EEPROM
 
 ats.sh - Anti-tamper Shell-Script (Linux)
 
-01_Led_delay_UID - Source Code Example
+01_Led_delay_UID.c - Source Code Example
 
 
 Terminal:
