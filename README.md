@@ -5,7 +5,7 @@ If we try to download the generated firmware directly to a second STM8S103 MCU i
 
 UID.c - Unique ID to EEPROM
 
-ats.sh - Anti-tamper shell script (Linux)
+ats.sh - Anti-tamper Shell Script (Linux)
 
 01_Led_delay_UID - Source Code Example
 
