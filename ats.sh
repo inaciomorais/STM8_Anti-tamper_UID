@@ -3,7 +3,7 @@
 ﻿# A. Inácio Morais - 05/2022 
 # anderson.morais@protonmail.com - Brazil
 
-# unlock
+  # unlock
 stm8flash -c stlinkv2 -p stm8s103f3 -u
 
 sdcc -mstm8 --std-c99 UID.c
@@ -60,7 +60,7 @@ sdcc -mstm8 --std-c99 02_Led_delay_UID.c
 
 stm8flash -c stlinkv2 -p stm8s003f3 -w 02_Led_delay_UID.ihx
 
-# lock
+  # lock
 #echo "AA" | xxd -r -p >ROP_ON.bin
 #stm8flash -c stlinkv2 -p stm8s103f3 -s opt -w ROP_ON.bin
 
