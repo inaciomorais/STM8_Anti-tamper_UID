@@ -65,7 +65,7 @@ int main()
 {
 	CLK_CKDIVR = 0x00;
 	
-	PA_DDR = 0x08;		// PA1 and PA2 as imput mode. PA3 as output mode
+	PA_DDR = 0x08;		// PA1 and PA2 as input mode. PA3 as output mode
 	PA_CR1 = 0x0E;		/* PA1 and PA2 as input with pull-up to avoid extra current consumption due to floating. PA3 as push-pull output */
 	
 	delay_ms(500);
