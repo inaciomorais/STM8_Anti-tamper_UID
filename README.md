@@ -6,7 +6,7 @@ UID - Unique ID - 96-bit unique key for each device
 
 UID.c - Unique ID to device EEPROM
 
-ats.sh - Anti-tamper Shell-Script (Linux)
+ats.sh - Anti-tamper Shell-Script (Linux Automated Programming Routine)
 
 01_Led_delay_UID.c - Source Code Example
 
